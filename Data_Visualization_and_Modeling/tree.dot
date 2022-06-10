@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="loan size <= 141.53\nentropy = 1.0\nsamples = 100.0%\nvalue = [0.51, 0.49]\nclass = 0", fillcolor="#fefcfa"] ;
+1 [label="leverage ratio <= 0.45\nentropy = 0.93\nsamples = 42.6%\nvalue = [0.35, 0.65]\nclass = 1", fillcolor="#a2d1f3"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+3 [label="management turnover <= 0.31\nentropy = 0.97\nsamples = 13.0%\nvalue = [0.6, 0.4]\nclass = 0", fillcolor="#f6d5bd"] ;
+1 -> 3 ;
+7 [label="entropy = 0.78\nsamples = 6.6%\nvalue = [0.77, 0.23]\nclass = 0", fillcolor="#eda775"] ;
+3 -> 7 ;
+8 [label="entropy = 0.98\nsamples = 6.4%\nvalue = [0.42, 0.58]\nclass = 1", fillcolor="#c7e3f8"] ;
+3 -> 8 ;
+4 [label="Quick Ratio <= 0.5\nentropy = 0.78\nsamples = 29.6%\nvalue = [0.23, 0.77]\nclass = 1", fillcolor="#75bbed"] ;
+1 -> 4 ;
+5 [label="entropy = 0.09\nsamples = 19.4%\nvalue = [0.01, 0.99]\nclass = 1", fillcolor="#3b9ee5"] ;
+4 -> 5 ;
+6 [label="profit growth <= 0.88\nentropy = 0.94\nsamples = 10.3%\nvalue = [0.64, 0.36]\nclass = 0", fillcolor="#f3c7a7"] ;
+4 -> 6 ;
+9 [label="entropy = 0.89\nsamples = 9.7%\nvalue = [0.69, 0.31]\nclass = 0", fillcolor="#f1ba92"] ;
+6 -> 9 ;
+10 [label="entropy = 0.44\nsamples = 0.6%\nvalue = [0.09, 0.91]\nclass = 1", fillcolor="#4da7e8"] ;
+6 -> 10 ;
+2 [label="entropy = 0.95\nsamples = 57.4%\nvalue = [0.63, 0.37]\nclass = 0", fillcolor="#f4cbae"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
