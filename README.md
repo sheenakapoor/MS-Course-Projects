@@ -21,8 +21,14 @@ Built a licensed package that accesses data from a REST API and forecasts weathe
 Created a pip installable and reusable package with command-line utilities, and managed it in a GitHub repo. 
 Formatted the python scripts with black, pylint, and flake8. Ensured smooth automation of the software workflow with GitHub actions tests.
 
+
+## PSC Internship
+Link to GitHub repo: https://github.com/sheenakapoor/PSC-Netbox-Internship
+
+This project was entirely managed on GitLab 
+
+
 Yet to add:
-Analysis and Modeling of Transport Phenomena (comsol project)
-Internship scripts link to repo
-MS Independent Research Project
+Analysis and Modeling of Transport Phenomena (comsol project), 
+MS Independent Research Project, 
 RA project
