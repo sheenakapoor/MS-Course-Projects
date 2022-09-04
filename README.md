@@ -15,7 +15,8 @@ Modeled and simulated an ODE system for a Non-Isothermal CSTR (Hick’s Reactor)
 Implemented Multilayer Perceptron Neural Network model using PyTorch to represent the nonlinear ODE system as a predictive model and compared accuracy with a model created using the numerical RK4 method. Obtained RMSE of 0.0073, indicating extremely high accuracy.
 
 ## Creating Scientific Research Software
-Project forked from Class repo, here's the link:
+Project imported from Class repo, here's the link: https://github.com/sheenakapoor/Weather-Forecasting-Package
+
 Built a licensed package that accesses data from a REST API and forecasts weather in an area based on the user’s zip code and performs various operations like unit conversions etc. 
 Created a pip installable and reusable package with command-line utilities, and managed it in a GitHub repo. 
 Formatted the python scripts with black, pylint, and flake8. Ensured smooth automation of the software workflow with GitHub actions tests.
